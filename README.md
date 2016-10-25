@@ -37,21 +37,21 @@ https://github.com/viniciusgame15/BDmoises/blob/master/ProjetoBD.pdf
 ####5.3 DESCRIÇÃO DOS DADOS 
     
     USUARIO: Tabela que armazena as informações relativas ao usuario.
-    a)nome_completo: campo do tipo varchar onde será armazenado o nome que o usuário queira que apareça para as outras pessoas na hora       de compartilhar o deck. Seria o seu nome real.
+    a)nome_completo: campo do tipo varchar onde será armazenado o nome que o usuário queira que apareça para as outras pessoas na hora de compartilhar o deck. Seria o seu nome real.
     b)data_nascimento: campo do tipo data onde será armazenada a data de nascimento do usuário.
     c)pergunta_secreta: campo do tipo varchar onde será armazenado uma pergunta para fins de confirmação caso o usuário perca a senha.
-    d)resposta_secreta: campo do tipo varchar de forma criptografada onde será armazenado a resposta da pergunta secreta para fins de       confirmação de que o usuário que está acessando aquela conta é o dono da mesma.
+    d)resposta_secreta: campo do tipo varchar de forma criptografada onde será armazenado a resposta da pergunta secreta para fins de confirmação de que o usuário que está acessando aquela conta é o dono da mesma.
     e)sexo: campo do tipo varchar onde será armazenado o sexo do usuário.
-    f)nome_usuário: campo do tipo varchar onde será armazenado o nome de usuário único (nickname) escolhido pelo mesmo para fins de         acesso a conta.
+    f)nome_usuário: campo do tipo varchar onde será armazenado o nome de usuário único (nickname) escolhido pelo mesmo para fins de acesso a conta.
     g)senha: campo do tipo varchar de forma criptografada para fins de armazenamento da senha do usuário.
-    h)email: campo do tipo varchar onde será armazenado o e-mail válido que o usuário forneceu para fins de confirmação da criação da       conta e resgate de senha.
+    h)email: campo do tipo varchar onde será armazenado o e-mail válido que o usuário forneceu para fins de confirmação da criação da conta e resgate de senha.
     i)telefone: campo do tipo varchar onde será armazenado o telefone que o usuário nos forneceu.
     j)endereço: campo multivalorado onde será armazenado os dados do endereço do usuário, contendo numero, rua, cep, cidade, estado.
-    k)cod_usr: campo do tipo bigint onde será armazenado o número de registro do usuário para fins de identificação única do mesmo no       sistema.
+    k)cod_usr: campo do tipo bigint onde será armazenado o número de registro do usuário para fins de identificação única do mesmo no sistema.
     DECK: Tabela que armazena informações do deck referente ao usuario.
     a)quantidade_cartas: campo do tipo int onde será armazenado a quantidade de cartas presente neste deck.
     b)cod_deck: campo do tipo int onde será armazenado o código único do deck como registro para fins de busca e atualização no sistema.
-    c)nome_deck: campo do tipo varchar onde será armazenado um nome do deck que o o usuário queira colocar como forma de identificação       do mesmo.
+    c)nome_deck: campo do tipo varchar onde será armazenado um nome do deck que o o usuário queira colocar como forma de identificação do mesmo.
     CARTA: Tabela que armazena informações referente as cartas.
     a)id_carta: campo do tipo int onde será armazenado o código referente aquela carta para fins de busca no sistema.
     b)nome_carta: campo do tipo varchar onde será armazenado o nome da carta (lembrando que o nome da carta é único).
@@ -64,7 +64,7 @@ https://github.com/viniciusgame15/BDmoises/blob/master/ProjetoBD.pdf
     CARTA_MAGICA: Tabela que armazena o informações da carta magica.
     a)id_carta_magica: campo do tipo int onde será armazenado o código referente a esta carta mágica para fins de busca no sistema.
     CARTA_ARMADILHA: Tabela que armazena informações da carta armadilha.
-    a)id_carta_armadilha: campo do tipo int no qual será armazenado o código referente  a esta carta armadilha para fins de busca no         sistema.
+    a)id_carta_armadilha: campo do tipo int no qual será armazenado o código referente  a esta carta armadilha para fins de busca no sistema.
     LISTA_DE_CARTAS: Tabela que armazena informações de quais cartas estão presentes em quais decks.
     a)cod_deck_carta: campo do tipo int que faz referência a tabela lista_de_cartas como um todo para fins de busca no sistema
     b)copia: campo do tipo int referente ao numero de copias da mesma carta referente a tabela carta
@@ -82,9 +82,9 @@ https://github.com/viniciusgame15/BDmoises/blob/master/ProjetoBD.pdf
     b)tipo_monstro: campo do tipo varchar onde será armazenado a descrição do tipo de monstro que a carta monstro possui.
     TIPO_MAGICA: Tabela que armazena os tipos existentes de magica.
     a)id_tipo_magica: campo do tipo int no qual será armazenado o código referente ao tipo de mágica que a carta mágica pode possuir.
-    b)tipo_magica: campo do tipo varchar no qual será armazenado a descrição do tipo de carta mágica na qual a carta mágica pode             possuir.
+    b)tipo_magica: campo do tipo varchar no qual será armazenado a descrição do tipo de carta mágica na qual a carta mágica pode possuir.
     TIPO_ARMADILHA: Tabela que armazena os tipos existentes de armadilha.
-    a)id_tipo_armadilha: campo do tipo int no qual será armazenado o código referente ao tipo de armadilha que a carta armadilha pode       possuir.
+    a)id_tipo_armadilha: campo do tipo int no qual será armazenado o código referente ao tipo de armadilha que a carta armadilha pode possuir.
     b) campo do tipo varchar no qual será armazenado a descrição do tipo de carta armadilha na qual a carta armadilha pode possuir.
     
     
