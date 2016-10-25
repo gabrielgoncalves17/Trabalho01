@@ -107,6 +107,7 @@ https://github.com/viniciusgame15/BDmoises/blob/master/ProjetoBD.pdf
 ![Alt text](https://github.com/viniciusgame15/BDmoises/blob/master/Logico.jpg?raw=true "Modelo Lógico")
     
 ###7	MODELO FÍSICO<br>
+https://github.com/viniciusgame15/BDmoises/blob/master/scriptBD.sql
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
