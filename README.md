@@ -104,7 +104,7 @@ https://github.com/viniciusgame15/BDmoises/blob/master/ProjetoBD.pdf
 
 
 ###6	MODELO LÓGICO<br>
-    ![Alt text](https://github.com/viniciusgame15/BDmoises/blob/master/Logico.jpg?raw=true "Modelo Lógico")
+![Alt text](https://github.com/viniciusgame15/BDmoises/blob/master/Logico.jpg?raw=true "Modelo Lógico")
     
 ###7	MODELO FÍSICO<br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
