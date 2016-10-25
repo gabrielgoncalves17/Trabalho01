@@ -7,10 +7,22 @@ Trabalho desenvolvido durante a disciplina de BD
 Vinicius Barbosa Martins<br>
 Kelvin Lehrback<br>
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+Tendo em visto o crescimento da comunidade duelista no solo Espirito Santense (e consequentemente no Brasil à fora), viu-se a necessidade de criação de uma plataforma que agilize a consulta de dados das cartas existentes e o armazenamento de decks(conjunto de cartas montado pelos jogadores) do card game “Yu-Gi-Oh! Trading Card game”.
+
+Para que assim, a busca pela informação desejada a respeito da carta viesse a se tornar ágil, rápida e confortável, beneficiando assim tanto os criadores do sistema quanto as pessoas que irão utilizá-lo.<br>
+
 
 ###3	MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+Neste sistema, o usuário terá a opção de criar uma conta caso deseje compartilhar os decks montados, e a conta de usuário terá as seguintes informações: Nome de usuário (nickname), telefone, data de nascimento, nome completo, senha e o seu endereço.
+
+Tendo já criado a conta, ele poderá montar os seus decks (para fins de armazenamento de informações e o compartilhamento das mesmas).
+
+O sistema guardará a data no qual cada deck foi criado, e cada deck contém um nome escolhido pelo usuário, e a medida que o mesmo for armazenando as cartas, irá também mostrar a quantidade de cartas contidas no mesmo. Sendo assim, o deck possui cartas, e estas são divididas em monstros, mágicas e armadilhas.
+
+Os atributos comuns a todas as cartas são o nome da carta, a descrição e a situação da mesma na ban list (lista de cartas banidas, limitadas e semi limitadas).
+
+Os monstros contém tipo, ataque, defesa, level (ou rank para XYZ), e o seu atributo. As mágicas possuem o tipo dela assim como as armadilhas.<br>
+
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 https://github.com/viniciusgame15/BDmoises/blob/master/ProjetoBD.pdf
