@@ -30,7 +30,7 @@ https://github.com/viniciusgame15/BDmoises/blob/master/ProjetoBD.pdf
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/viniciusgame15/BDmoises/blob/master/YugiohNew.jpg?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/viniciusgame15/BDmoises/blob/master/projetobd31-10.jpg?raw=true "Modelo Conceitual")
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
@@ -104,10 +104,10 @@ https://github.com/viniciusgame15/BDmoises/blob/master/ProjetoBD.pdf
 
 
 ###6	MODELO LÓGICO<br>
-![Alt text](https://github.com/viniciusgame15/BDmoises/blob/master/Logico.jpg?raw=true "Modelo Lógico")
+![Alt text](https://github.com/viniciusgame15/BDmoises/blob/master/logicobd31-10.jpg?raw=true "Modelo Lógico")
     
 ###7	MODELO FÍSICO<br>
-https://github.com/viniciusgame15/BDmoises/blob/master/scriptBD.sql
+https://github.com/viniciusgame15/BDmoises/blob/master/script.sql
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
