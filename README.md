@@ -117,9 +117,7 @@ https://github.com/viniciusgame15/BDmoises/blob/master/script.sql
         c) fontes de estudo para desenvolvimento do projeto
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
-        b) inclusão das instruções de inserção dos dados nas referidas tabelas
-        c) inclusão das instruções para execução de outros procedimentos necessários
+https://github.com/viniciusgame15/Trabalho01/blob/master/scriptCompleto.sql
 
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
