@@ -137,14 +137,61 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/script9.1.sql
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.11.png?raw=true "9.1.11")
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.12.png?raw=true "9.1.12")
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.2.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.2.1.png?raw=true "9.2.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.2.2.png?raw=true "9.2.2")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.2.3.png?raw=true "9.2.3")
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.3.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.3.1.png?raw=true "9.3.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.3.2.png?raw=true "9.3.2")
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.4.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.4.1.png?raw=true "9.4.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.4.2.png?raw=true "9.4.2")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.4.3.png?raw=true "9.4.3")
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.5.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.1.png?raw=true "9.5.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.2.png?raw=true "9.5.2")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.3.png?raw=true "9.5.3")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.4.png?raw=true "9.5.4")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.5.png?raw=true "9.5.5")
 ####9.6	CONSULTAS COM JUNÇÃO<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.6.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.1.png?raw=true "9.6.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.2.png?raw=true "9.6.2")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.3.png?raw=true "9.6.3")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.4.png?raw=true "9.6.4")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.5.png?raw=true "9.6.5")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.6.png?raw=true "9.6.6")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.7.png?raw=true "9.6.7")
 ####9.7	CONSULTAS COM GROUP BY<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.7.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.1.png?raw=true "9.7.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.2.png?raw=true "9.7.2")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.3.png?raw=true "9.7.3")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.4.png?raw=true "9.7.4")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.5.png?raw=true "9.7.5")
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.8.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.1.png?raw=true "9.8.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.2.png?raw=true "9.8.2")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.3.png?raw=true "9.8.3")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.4.png?raw=true "9.8.4")
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.9.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.1.png?raw=true "9.9.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.2.png?raw=true "9.9.2")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.3.png?raw=true "9.9.3")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.4.png?raw=true "9.9.4")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.5.png?raw=true "9.9.5")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.6.png?raw=true "9.9.6")
 ####9.10	SUBCONSULTAS<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.10.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.1.png?raw=true "9.10.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.2.png?raw=true "9.10.2")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.3.png?raw=true "9.10.3")
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
