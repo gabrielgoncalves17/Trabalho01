@@ -33,6 +33,7 @@ https://github.com/viniciusgame15/BDmoises/blob/master/ProjetoBD.pdf
 ![Alt text](https://github.com/viniciusgame15/BDmoises/blob/master/projetobd31-10.jpg?raw=true "Modelo Conceitual")
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
 
 ####5.1 Validação do Modelo Conceitual
     [Grupo01]: [Juliana]
