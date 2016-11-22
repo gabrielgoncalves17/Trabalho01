@@ -123,6 +123,19 @@ https://github.com/viniciusgame15/BDmoises/blob/master/script.sql
 
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.1.sql
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.1.png?raw=true "9.1.1")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.2.png?raw=true "9.1.2")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.3.png?raw=true "9.1.3")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.4.png?raw=true "9.1.4")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.5.png?raw=true "9.1.5")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.6.png?raw=true "9.1.6")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.7.png?raw=true "9.1.7")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.8.png?raw=true "9.1.8")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.9.png?raw=true "9.1.9")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.10.png?raw=true "9.1.10")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.11.png?raw=true "9.1.11")
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.12.png?raw=true "9.1.12")
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
