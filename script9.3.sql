@@ -1,0 +1,2 @@
+select estado as est, cidade as cid from endereco where(estado = "ES" and cidade = "Cariacica");
+select nome_completo ,resposta_secreta as resposta, pergunta_secreta as pergunta from usuario where(resposta_secreta = "nada" and pergunta_secreta = "nada");
