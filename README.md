@@ -43,14 +43,10 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     Endereço: Optamos por ser um campo multivalorado por conter mais de uma informação.
     Usar o conceito de herança entre as tabelas carta -> carta monstro, carta -> carta mágica, carta -> carta armadilha.
 
-####5.3 DESCRIÇÃO DOS DADOS 
-   
-   **USUÁRIO: Tabela que armazena as informações relativas ao usuario.**
-    
-    
-    
-	a)nome_completo: campo do tipo varchar onde será armazenado o nome que o usuário queira que apareça para as outras pessoas na hora de compartilhar o deck. Seria o seu nome real.
-	
+####5.3 DESCRIÇÃO DOS DADOS
+    **USUÁRIO: Tabela que armazena as informações relativas ao usuario.**
+
+    a)nome_completo: campo do tipo varchar onde será armazenado o nome que o usuário queira que apareça para as outras pessoas na hora de compartilhar o deck. Seria o seu nome real.
     
     b)data_nascimento: campo do tipo data onde será armazenada a data de nascimento do usuário.
     
@@ -101,6 +97,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
    CARTA_MAGICA: Tabela que armazena o informações da carta magica.**
     
     a)id_carta_magica: campo do tipo int onde será armazenado o código referente a esta carta mágica para fins de busca no sistema.
+	
     CARTA_ARMADILHA: Tabela que armazena informações da carta armadilha.
     
     a)id_carta_armadilha: campo do tipo int no qual será armazenado o código referente  a esta carta armadilha para fins de busca no sistema.
