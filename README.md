@@ -116,7 +116,8 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/scriptCompleto.sql
 
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.1.sql
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.1.sql<br>
+###### select * from usuario;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.1.png?raw=true "9.1.1")<br>
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.2.png?raw=true "9.1.2")<br>
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.3.png?raw=true "9.1.3")<br>
