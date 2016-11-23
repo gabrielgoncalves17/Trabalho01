@@ -46,12 +46,13 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
 ####5.3 DESCRIÇÃO DOS DADOS
 
         USUÁRIO: Tabela que armazena as informações relativas ao usuario.
-
+	
+	
 	a)nome_completo: campo do tipo varchar onde será armazenado o nome que o usuário queira que apareça para as outras pessoas na hora de compartilhar o deck. Seria o seu nome real.
-    
-    b)data_nascimento: campo do tipo data onde será armazenada a data de nascimento do usuário.
-    
-    c)pergunta_secreta: campo do tipo varchar onde será armazenado uma pergunta para fins de confirmação caso o usuário perca a senha.
+	
+	b)data_nascimento: campo do tipo data onde será armazenada a data de nascimento do usuário.
+	
+	c)pergunta_secreta: campo do tipo varchar onde será armazenado uma pergunta para fins de confirmação caso o usuário perca a senha.
     
     d)resposta_secreta: campo do tipo varchar de forma criptografada onde será armazenado a resposta da pergunta secreta para fins de confirmação de que o usuário que está acessando aquela conta é o dono da mesma.
     
