@@ -116,6 +116,7 @@ https://github.com/viniciusgame15/BDmoises/blob/master/script.sql
         a) obtenção dos dados
         b) obtenção de códigos reutilizados
         c) fontes de estudo para desenvolvimento do projeto
+        https://www.yugiohcardguide.com/
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 https://github.com/viniciusgame15/Trabalho01/blob/master/scriptCompleto.sql
