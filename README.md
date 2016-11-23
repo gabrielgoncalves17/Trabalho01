@@ -119,16 +119,27 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/scriptCompleto.sql
 https://github.com/viniciusgame15/Trabalho01/blob/master/script9.1.sql<br>
 ###### select * from usuario;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.1.png?raw=true "9.1.1")<br>
+###### select * from endereco;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.2.png?raw=true "9.1.2")<br>
+###### select * from deck;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.3.png?raw=true "9.1.3")<br>
+###### select * from contem_deck_carta;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.4.png?raw=true "9.1.4")<br>
+###### select * from carta;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.5.png?raw=true "9.1.5")<br>
+###### select * from situacao_na_lista;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.6.png?raw=true "9.1.6")<br>
+###### select * from carta_monstro;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.7.png?raw=true "9.1.7")<br>
+###### select * from carta_armadilha;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.8.png?raw=true "9.1.8")<br>
+###### select * from carta_magica;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.9.png?raw=true "9.1.9")<br>
+###### select * from tipo;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.10.png?raw=true "9.1.10")<br>
+###### select * from tipo_efeito_monstro;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.11.png?raw=true "9.1.11")<br>
+###### select * from atributo_monstro;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.12.png?raw=true "9.1.12")<br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 https://github.com/viniciusgame15/Trabalho01/blob/master/script9.2.sql
