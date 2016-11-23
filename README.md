@@ -142,35 +142,59 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/script9.1.sql<br>
 ###### select * from atributo_monstro;
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.1.12.png?raw=true "9.1.12")<br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.2.sql
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.2.1.png?raw=true "9.2.1")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.2.2.png?raw=true "9.2.2")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.2.3.png?raw=true "9.2.3")
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.2.sql<br>
+###### select * from usuario where(sexo = "Masculino");
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.2.1.png?raw=true "9.2.1")<br>
+###### select * from endereco where(estado = "ES");
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.2.2.png?raw=true "9.2.2")<br>
+###### select * from deck where(quantidade_cartas > 10);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.2.3.png?raw=true "9.2.3")<br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.3.sql
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.3.1.png?raw=true "9.3.1")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.3.2.png?raw=true "9.3.2")
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.3.sql<br>
+###### select estado as est, cidade as cid from endereco where(estado = "ES" and cidade = "Cariacica");
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.3.1.png?raw=true "9.3.1")<br>
+###### select nome_completo ,resposta_secreta as resposta, pergunta_secreta as pergunta from usuario where(resposta_secreta = "nada" and pergunta_secreta = "nada");
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.3.2.png?raw=true "9.3.2")<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.4.sql
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.4.1.png?raw=true "9.4.1")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.4.2.png?raw=true "9.4.2")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.4.3.png?raw=true "9.4.3")
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.4.sql<br>
+###### select nome_carta from carta where nome_carta like "B%";
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.4.1.png?raw=true "9.4.1")<br>
+###### select * from usuario where data_nascimento like "1996-%-%";
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.4.2.png?raw=true "9.4.2")<br>
+###### select * from usuario where nome_completo like "M%";
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.4.3.png?raw=true "9.4.3")<br>
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.5.sql
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.1.png?raw=true "9.5.1")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.2.png?raw=true "9.5.2")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.3.png?raw=true "9.5.3")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.4.png?raw=true "9.5.4")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.5.png?raw=true "9.5.5")
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.5.sql<br>
+###### select * from usuario where cod_usr = 1;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.1.png?raw=true "9.5.1")<br>
+###### select * from deck;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.2.png?raw=true "9.5.2")<br>
+###### select * from usuario;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.3.png?raw=true "9.5.3")<br>
+###### select * from endereco;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.4.png?raw=true "9.5.4")<br>
+###### select * from carta;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.5.5.png?raw=true "9.5.5")<br>
 ####9.6	CONSULTAS COM JUNÇÃO<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.6.sql
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.1.png?raw=true "9.6.1")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.2.png?raw=true "9.6.2")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.3.png?raw=true "9.6.3")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.4.png?raw=true "9.6.4")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.5.png?raw=true "9.6.5")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.6.png?raw=true "9.6.6")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.7.png?raw=true "9.6.7")
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.6.sql<br>
+###### select * from usuario join endereco on(cod_usr = cod_usr_FK);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.1.png?raw=true "9.6.1")<br>
+###### select * from usuario join deck on(usuario.cod_usr = deck.cod_usr);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.2.png?raw=true "9.6.2")<br>
+###### select * from deck join contem_deck_carta on(deck.cod_deck = contem_deck_carta.cod_deck) join carta on(contem_deck_carta.id_carta = carta.id_carta);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.3.png?raw=true "9.6.3")<br>
+###### select * from carta join situacao_na_lista on (carta.id_situacao = situacao_na_lista.id_situacao);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.4.png?raw=true "9.6.4")<br>
+###### select * from carta join carta_armadilha on(carta.id_carta = carta_armadilha.id_carta) join tipo on(carta_armadilha.id_tipo = tipo.id_tipo);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.5.png?raw=true "9.6.5")<br>
+###### select * from carta join carta_magica on(carta.id_carta = carta_magica.id_carta) join tipo on(carta_magica.id_tipo = tipo.id_tipo);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.6.png?raw=true "9.6.6")<br>
+###### select * from carta 
+join carta_monstro on(carta.id_carta = carta_monstro.id_carta) 
+join tipo on(carta_monstro.id_tipo = tipo.id_tipo)
+join atributo_monstro on(carta_monstro.id_atributo_monstro = atributo_monstro.id_atributo_monstro)
+join tipo_efeito_monstro on(carta_monstro.id_tipo_efeito_monstro = tipo_efeito_monstro.id_tipo_efeito_monstro);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.7.png?raw=true "9.6.7")<br>
 ####9.7	CONSULTAS COM GROUP BY<br>
 https://github.com/viniciusgame15/Trabalho01/blob/master/script9.7.sql
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.1.png?raw=true "9.7.1")
