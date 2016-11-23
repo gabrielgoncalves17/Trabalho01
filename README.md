@@ -190,37 +190,55 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/script9.6.sql<br>
 ###### select * from carta join carta_magica on(carta.id_carta = carta_magica.id_carta) join tipo on(carta_magica.id_tipo = tipo.id_tipo);
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.6.png?raw=true "9.6.6")<br>
 ###### select * from carta 
-join carta_monstro on(carta.id_carta = carta_monstro.id_carta) 
-join tipo on(carta_monstro.id_tipo = tipo.id_tipo)
-join atributo_monstro on(carta_monstro.id_atributo_monstro = atributo_monstro.id_atributo_monstro)
-join tipo_efeito_monstro on(carta_monstro.id_tipo_efeito_monstro = tipo_efeito_monstro.id_tipo_efeito_monstro);
+###### join carta_monstro on(carta.id_carta = carta_monstro.id_carta) 
+###### join tipo on(carta_monstro.id_tipo = tipo.id_tipo)
+###### join atributo_monstro on(carta_monstro.id_atributo_monstro = atributo_monstro.id_atributo_monstro)
+###### join tipo_efeito_monstro on(carta_monstro.id_tipo_efeito_monstro = tipo_efeito_monstro.id_tipo_efeito_monstro);
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.6.7.png?raw=true "9.6.7")<br>
 ####9.7	CONSULTAS COM GROUP BY<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.7.sql
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.1.png?raw=true "9.7.1")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.2.png?raw=true "9.7.2")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.3.png?raw=true "9.7.3")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.4.png?raw=true "9.7.4")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.5.png?raw=true "9.7.5")
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.7.sql<br>
+###### select * from carta where id_situacao = 4 group by id_carta;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.1.png?raw=true "9.7.1")<br>
+###### select * from usuario where sexo = "Feminino" group by email;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.2.png?raw=true "9.7.2")<br>
+###### select id_carta_monstro,ataque,defesa from carta_monstro where id_tipo = 11 group by ataque;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.3.png?raw=true "9.7.3")<br>
+###### select carta.nome_carta as nome, tipo.descricao from carta inner join carta_magica inner join tipo on(carta.id_carta = carta_magica.id_carta_magica) where tipo.descricao = "Normal" group by carta.nome_carta;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.4.png?raw=true "9.7.4")<br>
+###### select carta.nome_carta as nome,carta_monstro.level from carta inner join carta_monstro on(carta.id_carta = carta_monstro.id_carta_monstro) where level = 4 group by carta.nome_carta;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.7.5.png?raw=true "9.7.5")<br>
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.8.sql
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.1.png?raw=true "9.8.1")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.2.png?raw=true "9.8.2")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.3.png?raw=true "9.8.3")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.4.png?raw=true "9.8.4")
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.8.sql<br>
+###### select * from carta left join carta_monstro on(carta.id_carta = carta_monstro.id_carta_monstro);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.1.png?raw=true "9.8.1")<br>
+###### select * from carta_monstro right join tipo on(tipo.id_tipo = carta_monstro.id_tipo) group by tipo.id_tipo;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.2.png?raw=true "9.8.2")<br>
+###### select * from carta right join carta_armadilha on(carta.id_carta = carta_armadilha.id_carta_armadilha);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.3.png?raw=true "9.8.3")<br>
+###### select * from carta left join contem_deck_carta on(contem_deck_carta.id_carta = carta.id_carta);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.8.4.png?raw=true "9.8.4")<br>
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.9.sql
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.1.png?raw=true "9.9.1")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.2.png?raw=true "9.9.2")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.3.png?raw=true "9.9.3")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.4.png?raw=true "9.9.4")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.5.png?raw=true "9.9.5")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.6.png?raw=true "9.9.6")
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.9.sql<br>
+###### select * from carta_monstro_consulta;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.1.png?raw=true "9.9.1")<br>
+###### select * from carta_magica_consulta;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.2.png?raw=true "9.9.2")<br>
+###### select * from carta_armadilha_consulta;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.3.png?raw=true "9.9.3")<br>
+###### select * from carta_monstro_fora_da_lista;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.4.png?raw=true "9.9.4")<br>
+###### select * from carta_armadilha_fora_lista;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.5.png?raw=true "9.9.5")<br>
+###### select * from carta_magica_fora_lista;
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.9.6.png?raw=true "9.9.6")<br>
 ####9.10	SUBCONSULTAS<br>
-https://github.com/viniciusgame15/Trabalho01/blob/master/script9.10.sql
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.1.png?raw=true "9.10.1")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.2.png?raw=true "9.10.2")
-![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.3.png?raw=true "9.10.3")
+https://github.com/viniciusgame15/Trabalho01/blob/master/script9.10.sql<br>
+###### select * from carta where carta.id_carta in (select id_carta from carta_monstro);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.1.png?raw=true "9.10.1")<br>
+###### select * from usuario where usuario.cod_usr in (select cod_usr from deck);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.2.png?raw=true "9.10.2")<br>
+###### select * from carta_monstro where carta_monstro.id_tipo_efeito_monstro in (select id_tipo_efeito_monstro from tipo_efeito_monstro);
+![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.3.png?raw=true "9.10.3")<br>
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
