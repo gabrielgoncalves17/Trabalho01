@@ -45,7 +45,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
 
 ####5.3 DESCRIÇÃO DOS DADOS 
    
-   **UARIO: Tabela que armazena as informações relativas ao usuario.
+   **UARIO: Tabela que armazena as informações relativas ao usuario.**
     
     a)nome_completo: campo do tipo varchar onde será armazenado o nome que o usuário queira que apareça para as outras pessoas na hora de compartilhar o deck. Seria o seu nome real.
     
