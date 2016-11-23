@@ -45,9 +45,9 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
 
 ####5.3 DESCRIÇÃO DOS DADOS
 
-    USUÁRIO: Tabela que armazena as informações relativas ao usuario.
+        USUÁRIO: Tabela que armazena as informações relativas ao usuario.
 
-    a)nome_completo: campo do tipo varchar onde será armazenado o nome que o usuário queira que apareça para as outras pessoas na hora de compartilhar o deck. Seria o seu nome real.
+	a)nome_completo: campo do tipo varchar onde será armazenado o nome que o usuário queira que apareça para as outras pessoas na hora de compartilhar o deck. Seria o seu nome real.
     
     b)data_nascimento: campo do tipo data onde será armazenada a data de nascimento do usuário.
     
@@ -144,7 +144,6 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     a)id_tipo_armadilha: campo do tipo int no qual será armazenado o código referente ao tipo de armadilha que a carta armadilha pode possuir.
     
     b) campo do tipo varchar no qual será armazenado a descrição do tipo de carta armadilha na qual a carta armadilha pode possuir.
-    
     
     
 
