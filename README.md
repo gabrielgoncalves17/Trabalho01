@@ -96,7 +96,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     
     d)leve: campo do tipo int onde será armazenado o número referente ao level deste monstro.
     
-    CARTA_MAGICA: Tabela que armazena o informações da carta magica.**
+   ***CARTA_MAGICA: Tabela que armazena o informações da carta magica.***
     
     a)id_carta_magica: campo do tipo int onde será armazenado o código referente a esta carta mágica para fins de busca no sistema.
 	
@@ -104,7 +104,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     
     a)id_carta_armadilha: campo do tipo int no qual será armazenado o código referente  a esta carta armadilha para fins de busca no sistema.
     
-    LISTA_DE_CARTAS: Tabela que armazena informações de quais cartas estão presentes em quais decks.
+   ***LISTA_DE_CARTAS: Tabela que armazena informações de quais cartas estão presentes em quais decks.***
     
     a)cod_deck_carta: campo do tipo int que faz referência a tabela lista_de_cartas como um todo para fins de busca no sistema
     
@@ -122,7 +122,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     
     b)tipo_efeito_monstro: campo do tipo varchar onde será armazenado o nome do tipo de efeito no qual o monstro possui.
     
-    ATRIBUTO_MONSTRO: Tabela que armazina tipo dos atributos da carta monstro.
+    ATRIBUTO_MONSTRO: Tabela que armazena tipo dos atributos da carta monstro.
     
     a)id_atributo_monstro: campo do tipo int onde será armazenado o código referente ao tipo de atributo no qual o monstro possui.
     
