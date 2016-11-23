@@ -45,7 +45,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
 
 ####5.3 DESCRIÇÃO DOS DADOS
 
- USUÁRIO: Tabela que armazena as informações relativas ao usuario.
+***USUÁRIO: Tabela que armazena as informações relativas ao usuario.***
 	
 	
 	a)nome_completo: campo do tipo varchar onde será armazenado o nome que o usuário queira que apareça para as outras pessoas na hora de compartilhar o deck. Seria o seu nome real.
@@ -70,7 +70,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     
     k)cod_usr: campo do tipo bigint onde será armazenado o número de registro do usuário para fins de identificação única do mesmo no sistema.
     
-    DECK: Tabela que armazena informações do deck referente ao usuario
+    ***DECK: Tabela que armazena informações do deck referente ao usuario***
     
     a)quantidade_cartas: campo do tipo int onde será armazenado a quantidade de cartas presente neste deck.
     
