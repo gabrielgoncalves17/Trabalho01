@@ -40,12 +40,8 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     [Grupo02]: [Estevao]
 
 ####5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    Endereço: Optamos por ser um campo multivalorado por conter mais de uma informação.
+    Usar o conceito de herança entre as tabelas carta -> carta monstro, carta -> carta mágica, carta -> carta armadilha.
 
 ####5.3 DESCRIÇÃO DOS DADOS 
     
@@ -111,12 +107,9 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
 https://github.com/viniciusgame15/BDmoises/blob/master/script.sql
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
-        https://www.yugiohcardguide.com/
+      As informações a respeito das cartas foram retiradas do seguinte site: https://www.yugiohcardguide.com/
+      E, em relação a atributo "situação na lista" e a tabela a respeito desse atributo, as informações foram retiradas do site : http://www.yugioh-card.com/en/limited/
+      Sobre o conhecimento necessário para a realização deste trabalho, foi consultado para fins de retenção de dúvidas o manual oficial de regras do TCG Yu-Gi-Oh, disponivel no seguinte endereço : http://www.yugioh-card.com/uk/rulebook/Rulebook_v9_pt.pdf
         
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 https://github.com/viniciusgame15/Trabalho01/blob/master/scriptCompleto.sql
@@ -195,6 +188,8 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/script9.10.sql
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 Relacionar as tabelas de acordo com os atributos de cada carta, tendo em vista que as mesmas possuem atributos diferentes dependendo de sua categoria (monstro,mágica e armadilha), sendo assim, foi necessário criar novas tabelas para armazenar esses atributos "secundários", como por exemplo em monstros que só pode ter um atributo do tipo "atributo" (water,fire,wind...) e assim foi criada uma nova tabela para o armazenamento dos mesmos junto com um "ID" próprio.
+-
+Foi necessário também a pesquisa a respeito de como implementar herança, já que foi necessário a sua utilização no banco de dados usando o MySql.
 
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
