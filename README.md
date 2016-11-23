@@ -78,7 +78,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     
     c)nome_deck: campo do tipo varchar onde será armazenado um nome do deck que o o usuário queira colocar como forma de identificação do mesmo.
     
-    CARTA: Tabela que armazena informações referente as cartas.
+   ***CARTA: Tabela que armazena informações referente as cartas.***
     
     a)id_carta: campo do tipo int onde será armazenado o código referente aquela carta para fins de busca no sistema.
     
