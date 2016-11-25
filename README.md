@@ -86,7 +86,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     
     c)descrição: campo do tipo varchar onde será armazenada a descrição da carta.
     
-    CARTA_MONSTRO: Tabela que armazena informações da carta monstro.
+   ***CARTA_MONSTRO: Tabela que armazena informações da carta monstro.***
     
     a)id_carta_monstro: campo do tipo int onde será armazenado o código referente a esta carta monstros para fins de busca no sistema.
     
@@ -100,7 +100,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     
     a)id_carta_magica: campo do tipo int onde será armazenado o código referente a esta carta mágica para fins de busca no sistema.
 	
-    CARTA_ARMADILHA: Tabela que armazena informações da carta armadilha.
+   ***CARTA_ARMADILHA: Tabela que armazena informações da carta armadilha.***
     
     a)id_carta_armadilha: campo do tipo int no qual será armazenado o código referente  a esta carta armadilha para fins de busca no sistema.
     
@@ -108,27 +108,27 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     
     a)cod_deck_carta: campo do tipo int que faz referência a tabela lista_de_cartas como um todo para fins de busca no sistema
     
-    b)copia: campo do tipo int referente ao numero de copias da mesma carta referente a tabela carta
+    b)contador: campo do tipo int referente ao numero de copias da mesma carta referente a tabela carta
     
-    SITUAÇÃO_NA_LISTA: Tabela que armazena os estados da carta se ela esta banida, limitada, etc.
+   ***SITUAÇÃO_NA_LISTA: Tabela que armazena os estados da carta se ela esta banida, limitada, etc.***
     
     a)id_situacao: campo do tipo int onde será armazenado o código referente a um tipo de situação na qual a carta se encontra.
     
     b)tipo_situacao: campo do tipo varchar onde está descrito qual é a situação da carta.
     
-    TIPO_EFEITO_MONSTRO: Tabela que armazena os tipos de efeito de monstros.
+   ***TIPO_EFEITO_MONSTRO: Tabela que armazena os tipos de efeito de monstros.***
     
     a)id_tipo_efeito_monstros: campo do tipo int onde será armazenado o código referente ao tipo de efeito no qual o monstro possui.
     
     b)tipo_efeito_monstro: campo do tipo varchar onde será armazenado o nome do tipo de efeito no qual o monstro possui.
     
-    ATRIBUTO_MONSTRO: Tabela que armazena tipo dos atributos da carta monstro.
+   ***ATRIBUTO_MONSTRO: Tabela que armazena tipo dos atributos da carta monstro.***
     
     a)id_atributo_monstro: campo do tipo int onde será armazenado o código referente ao tipo de atributo no qual o monstro possui.
     
     b)atributo: campo do tipo varchar no qual será armazenado a descrição do atributo contido no monstro.
     
-    TIPO_MONSTRO: Tabela que armazena os tipos existentes de monstro.
+   ***TIPO_EFEITO_MONSTRO: Tabela que armazena os tipos existentes de monstro.***
     
     a)id_tipo_monstro: campo do tipo int no qual será armazenado o código refente ao tipo de monstro que a carta monstro pertence.
     
