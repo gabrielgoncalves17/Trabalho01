@@ -134,17 +134,11 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/diagramaUML.png
     
     b)tipo_monstro: campo do tipo varchar onde será armazenado a descrição do tipo de monstro que a carta monstro possui.
     
-    TIPO_MAGICA: Tabela que armazena os tipos existentes de magica.
+   ***TIPO: Tabela que armazena os tipos existentes de montros,mágicas e armadilhas.***
     
-    a)id_tipo_magica: campo do tipo int no qual será armazenado o código referente ao tipo de mágica que a carta mágica pode possuir.
+    a)id_tipo_: campo do tipo int no qual será armazenado o código referente ao tipo de montros,mágica ou armadilha que a carta irá possuir.
     
-    b)tipo_magica: campo do tipo varchar no qual será armazenado a descrição do tipo de carta mágica na qual a carta mágica pode possuir.
-    
-    TIPO_ARMADILHA: Tabela que armazena os tipos existentes de armadilha.
-    
-    a)id_tipo_armadilha: campo do tipo int no qual será armazenado o código referente ao tipo de armadilha que a carta armadilha pode possuir.
-    
-    b) campo do tipo varchar no qual será armazenado a descrição do tipo de carta armadilha na qual a carta armadilha pode possuir.
+    b)descricao: campo do tipo varchar no qual será armazenado a descrição do tipo de carta montros mágica e armadilha que a carta pode possuir.
     
     
 
