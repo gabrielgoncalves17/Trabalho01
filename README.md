@@ -283,6 +283,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/script9.10.sql<br>
 ###### select * from carta_monstro where carta_monstro.id_tipo_efeito_monstro in (select id_tipo_efeito_monstro from tipo_efeito_monstro);
 ![Alt text](https://github.com/viniciusgame15/Trabalho01/blob/master/9.10.3.png?raw=true "9.10.3")<br>
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
+https://github.com/viniciusgame15/Trabalho01/blob/master/bando-de-dados.odp
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
    Relacionar as tabelas de acordo com os atributos de cada carta, tendo em vista que as mesmas possuem atributos diferentes dependendo de sua categoria (monstro,mágica e armadilha), sendo assim, foi necessário criar novas tabelas para armazenar esses atributos "secundários", como por exemplo em monstros que só pode ter um atributo do tipo "atributo" (water,fire,wind...) e assim foi criada uma nova tabela para o armazenamento dos mesmos junto com um "ID" próprio.
