@@ -286,6 +286,7 @@ https://github.com/viniciusgame15/Trabalho01/blob/master/script9.10.sql<br>
 https://github.com/viniciusgame15/Trabalho01/blob/master/bando-de-dados.odp
 
 ###11 TRABALHO REDES SOCIAIS
+https://github.com/viniciusgame15/Trabalho01/blob/master/bdTrabalho.py
 
 	"""
 	Tivemos de usar um try pois alguns tweets tinham emojis e devido a isso dava erro na hora do insert, agora ignoro os tweet com emojis e pego os que nao dao erro.
